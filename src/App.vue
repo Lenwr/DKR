@@ -40,7 +40,7 @@ const  items = [
   },
   {
     title : 'ACCOMPAGNEMENT',
-    id:'#accommpagnements'
+    id:'#accompagnements'
   },
   {
     title : 'SUPPLÉMENT',
