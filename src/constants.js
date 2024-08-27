@@ -2,174 +2,327 @@ export const foodList = [
     {
         category:'entrées',
         name: 'pastels thon' ,
-        description :'5 pièces',
-        price: 5.50,
+        description :'4 pièces',
+        price: 3.50,
         picture: '/vite.svg'
     },
     {
         category:'entrées',
         name: 'pastels viande' ,
-        description :'5 pièces',
-        price: 5.50,
-        picture: '/vite.svg'
-    },
-    {
-        category:'entrées',
-        name: 'pastels viande kiri' ,
-        description :'5 pièces',
-        price: 6.00,
-        picture: '/vite.svg'
-    },
-    {
-        category:'entrées',
-        name: 'pastels poulet boursin' ,
-        description :'5 pièces',
-        price: 6.00,
-        picture: '/vite.svg'
-    },
-    {
-        category:'entrées',
-        name: 'accra de morue' ,
-        description :'10 pièces',
-        price: 6.50,
-        picture: '/vite.svg'
-    },
-    {
-        category:'entrées',
-        name: 'winds osda' ,
-        description :'',
-        price: 6.00,
-        picture: '/vite.svg'
-    },
-    {
-        category:'entrées',
-        name: 'nems poulet' ,
-        description :'5 pièces',
-        price: 5.50,
-        picture: '/vite.svg'
-    },
-    {
-        category:'entrées',
-        name: 'nems crevettes' ,
-        description :'5 pièces',
-        price: 5.50,
-        picture: '/vite.svg'
-    },
-    {
-        category:'entrées',
-        name: 'oeufs osda' ,
-        description :'5 pièces',
+        description :'4 pièces',
         price: 3.50,
         picture: '/vite.svg'
     },
     {
         category:'entrées',
-        name: 'plantains osda' ,
-        description :'Beignet de banane plantain,oignon,escalope de poulet épicée accompagnée de sa sauce OSDA',
-        price: 6.00,
+        name: 'Nems Poulet' ,
+        description :'3 pièces',
+        price: 3.00,
         picture: '/vite.svg'
     },
     {
-        category:'salades',
-        name: 'osda' ,
-        description :'salade,tomates,poulet braisé,maïs,alloco et sa sauce OSDA',
-        price: 10.00,
-        picture: '/vite.svg'
-    },
-    {
-        category:'salades',
-        name: 'la bamakoise' ,
-        description :'salade,tomates,thon,oeuf,frites de patates douces et sa sauce OSDA',
-        price: 10.00,
-        picture: '/vite.svg'
-    },
-    {
-        category:'salades',
-        name: 'la villageoise' ,
-        description :'salade,tomates,concombres,oeuf et sa sauce OSDA',
-        price: 6.00,
-        picture: '/vite.svg'
-    },
-    {
-        category:'accompagnements',
-        name: 'frites maison' ,
-        description :'',
+        category:'entrées',
+        name: 'Nems Crevettes' ,
+        description :'3 pièces',
         price: 3.50,
         picture: '/vite.svg'
     },
+
     {
         category:'accompagnements',
-        name: 'alloco' ,
+        name: 'frites ' ,
         description :'',
-        price: 3.50,
+        price: 2.50,
         picture: '/vite.svg'
     },
     {
         category:'accompagnements',
-        name: 'attieke' ,
+        name: 'frites maisons ' ,
         description :'',
-        price: 4.00,
-        picture: '/vite.svg'
-    },
-    {
-        category:'accompagnements',
-        name: 'patates douces' ,
-        description :'',
-        price: 4.00,
+        price: 3.00,
         picture: '/vite.svg'
     },
     {
         category:'accompagnements',
         name: 'riz parfumé blanc' ,
         description :'',
+        price: 2.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'accompagnements',
+        name: 'Patate douce' ,
+        description :'',
         price: 4.00,
         picture: '/vite.svg'
     },
     {
         category:'accompagnements',
-        name: 'riz parfumé rouge' ,
+        name: 'aloko' ,
         description :'',
-        price: 4.50,
+        price: 4.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'accompagnements',
+        name: 'attiéké' ,
+        description :'',
+        price: 4.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'accompagnements',
+        name: 'Riz thaï' ,
+        description :'',
+        price: 3.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'accompagnements',
+        name: 'Pomme de terre' ,
+        description :'',
+        price: 3.00,
+        picture: '/vite.svg'
+    },
+
+    {
+        category:'supply',
+        name: 'Piment' ,
+        description :'',
+        price: 0.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'supply',
+        name: 'Sauce spéciale oignon' ,
+        description :'',
+        price: 0.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'supply',
+        name: 'sauce pastel' ,
+        description :'',
+        price: 0.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'supply',
+        name: 'mayonnaise' ,
+        description :'',
+        price: 0.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'supply',
+        name: 'sauce verte' ,
+        description :'',
+        price: 0.50,
+        picture: '/vite.svg'
+    },
+
+    {
+        category:'menu',
+        name: 'Menu 1' ,
+        type:'',
+        description :'3 pilons de poulet + 1 accompagnement + Boisson 33cL',
+        price: 6.50,
         picture: '/vite.svg'
     },
     {
         category:'menu',
-        name: 'Menu Dibiterie' ,
-        type:'Sur place / à emporter',
-        description :'Dibiterie au choix (5 Brochettes ou dibi)' +
-            '+ Accompagnements' +
-            '+ Dessert' +
-            '+ Boisson (Cannette au choix)',
-        price: 16.00,
+        name: 'Menu 2' ,
+        type:'',
+        description :'4 ailes de poulet + 1 accompagnements + 1 boisson 33 cL',
+        price: 6.50,
         picture: '/vite.svg'
     },
     {
         category:'menu',
-        name: 'Menu Midi' ,
-        type:'Sur place / à emporter Du mardi au vendredi midi',
-        description :'Plat africain au choix (sauf thieboudienne)' +
-            '+ Boisson (Cannette au choix)',
-        price: 13.00,
+        name: 'Menu 3' ,
+        type:'',
+        description :'1 cuisse de poulet + 1 accompagnement + 1 boisson 33 cL',
+        price: 6.50,
+        picture: '/vite.svg'
+    },
+
+    {
+        category:'plats',
+        name: 'tiep viande' ,
+        description :'',
+        price: 12.00,
         picture: '/vite.svg'
     },
     {
-        category:'menu',
-        name: 'Menu OSDA' ,
-        type:'Uniquement le midi',
-        description :'Spéciale brochette (au choix)' +
-            '+ Frites maison' +
-            '+ Boisson (Cannette au choix)',
-        price: 9.99,
+        category:'plats',
+        name: 'tiep poulet' ,
+        description :'',
+        price: 11.00,
         picture: '/vite.svg'
     },
     {
-        category:'menu',
-        name: 'Menu Enfant' ,
-        type:'Sur place / à emporter Du mardi au vendredi midi',
-        description :'2 Brochettes' +
-            '+ Accompagnements au choix' +
-            '+ Caprisun ou Eau',
-        price: 6.00,
+        category:'plats',
+        name: 'thieboudienne' ,
+        description :' ',
+        price: 11.00,
         picture: '/vite.svg'
     },
+    {
+        category:'plats',
+        name: 'Yassa poulet' ,
+        description :'',
+        price: 11.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'plats',
+        name: 'Mafé viande' ,
+        description :'Riz blanc sauce arachide viande',
+        price: 12.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'plats',
+        name: 'attiéké poulet' ,
+        description :'',
+        price: 11.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'plats',
+        name: 'attiéké poissons' ,
+        description :'',
+        price: 11.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'plats',
+        name: 'Vermicelles poulet' ,
+        description :'Bananes plantain accompagné de poulet braisé',
+        price: 10.00,
+        picture: '/vite.svg'
+    },
+
+    {
+        category:'boissons',
+        name: 'Jus de bissap' ,
+        description :'',
+        price: 2.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'boissons',
+        name: 'Jus de gingembre' ,
+        description :'',
+        price: 2.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'boissons',
+        name: 'Jus de bouyi' ,
+        description :'',
+        price: 2.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'boissons',
+        name: 'Thiakry / dégué' ,
+        description :'',
+        price: 3.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'boissons',
+        name: 'Canette' ,
+        description :'',
+        price: 1.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'boissons',
+        name: 'Eau' ,
+        description :'',
+        price: 1.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'boissons',
+        name: 'Bouteille' ,
+        description :'1L5',
+        price: 2.50,
+        picture: '/vite.svg'
+    },
+
+    {
+        category:'chicken',
+        name: 'Poulet entier ' ,
+        description :'',
+        price: 7.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'chicken',
+        name: '1/2 poulet  ' ,
+        description :'',
+        price: 4.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'chicken',
+        name: 'Cuisse de poulet  ' ,
+        description :'',
+        price: 2.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'chicken',
+        name: 'Blanc de poulet  ' ,
+        description :'',
+        price: 3.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'chicken',
+        name: '3 pilons ' ,
+        description :'',
+        price: 2.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'chicken',
+        name: 'Saucisse de poulet' ,
+        description :'',
+        price: 1.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'chicken',
+        name: 'Donuts poulet' ,
+        description :'',
+        price: 2.00,
+        picture: '/vite.svg'
+    },
+
+    {
+        category:'grillades',
+        name: 'Brochettes de poulet' ,
+        description :'1 pièce',
+        price: 1.50,
+        picture: '/vite.svg'
+    },
+    {
+        category:'grillades',
+        name: 'Brochettes de boeuf' ,
+        description :'1 pièce',
+        price: 2.00,
+        picture: '/vite.svg'
+    },
+    {
+        category:'grillades',
+        name: 'Dibi agneau 300g' ,
+        description :'',
+        price: 10.00,
+        picture: '/vite.svg'
+    },
+
 ]
