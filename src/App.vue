@@ -52,7 +52,7 @@ const  items = [
   },
   {
     title : 'GRILLADES / DIBITERIE',
-    id:'#grillades'
+    id:'#grillade'
   },
   {
     title : 'BOISSONS',
@@ -71,7 +71,7 @@ const  items = [
 
 <template >
 <div class=" bg-[url('/background.jpg')]">
-<div class="bg-white text-black ">
+<div class="bg-white bg-opacity-80 text-black ">
   <div class="p-2">
   <h1 class="rounded-2xl text-red-700 p-4 bg-yellow-500 bg-grey-300 font-semibold text-2xl text-center shadow-2xl" >DKR MENU</h1>
   </div>
@@ -111,7 +111,7 @@ const  items = [
       <li class="md:w-[30%]"><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
     </ul>
 
-    <h1 class="p-2 my-2 font-semibold text-2xl" id="plats">GRILLADES / DIBITERIE </h1>
+    <h1 class="p-2 my-2 font-semibold text-2xl" id="grillade">GRILLADES / DIBITERIE </h1>
     <ul v-for="item in grillsItems" class=" " >
       <li class="md:w-[30%]"><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
     </ul>

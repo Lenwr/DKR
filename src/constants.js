@@ -177,7 +177,7 @@ export const foodList = [
     {
         category:'plats',
         name: 'Mafé viande' ,
-        description :'Riz blanc sauce arachide viande',
+        description :'',
         price: 12.00,
         picture: '/vite.svg'
     },
@@ -198,7 +198,7 @@ export const foodList = [
     {
         category:'plats',
         name: 'Vermicelles poulet' ,
-        description :'Bananes plantain accompagné de poulet braisé',
+        description :'',
         price: 10.00,
         picture: '/vite.svg'
     },
