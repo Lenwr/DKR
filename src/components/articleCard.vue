@@ -11,9 +11,9 @@ defineProps({
 
 <template>
   <div class="p-2  ">
-    <div class="flex bg-gray-100  flex-row rounded-xl shadow-2xl opacity-1 bg-white ">
+    <div class="flex bg-gray-100  flex-row rounded shadow opacity-1 bg-white ">
       <div class="w-1/3">
-        <img class="w-full rounded-xl h-[7em]" src="https://img.freepik.com/photos-gratuite/cuisine-asiatique-dans-restaurant_7939-2024.jpg?t=st=1724746632~exp=1724750232~hmac=34e8eba5aff8279b2ed4e77b515692a771ee2be4d4883711571c258a7b56d8fa&w=1800" alt="">
+        <img class="w-full object-fit rounded h-[6em]" :src=picture alt="">
       </div>
       <div class="w-2/3 flex flex-col justify-around p-2">
         <h1 class="font-semibold text-[1.2em]">{{(name).toUpperCase()}}</h1>

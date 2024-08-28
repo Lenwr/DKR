@@ -151,7 +151,7 @@ export const foodList = [
         name: 'tiep viande' ,
         description :'',
         price: 12.00,
-        picture: '/vite.svg'
+        picture: '/plats.png'
     },
     {
         category:'plats',
@@ -254,25 +254,25 @@ export const foodList = [
     },
 
     {
-        category:'chicken',
-        name: 'Poulet entier ' ,
-        description :'',
+        category: 'chicken',
+        name: 'Poulet entier ',
+        description: '',
         price: 7.00,
-        picture: '/vite.svg'
+        picture: 'https://epicier.ca/wp-content/uploads/2021/04/cuisson-poulet-BBQ-e1698957923158.jpg'
     },
     {
-        category:'chicken',
-        name: '1/2 poulet  ' ,
-        description :'',
+        category: 'chicken',
+        name: '1/2 poulet  ',
+        description: '',
         price: 4.00,
-        picture: '/vite.svg'
+        picture: 'https://glovo.dhmedia.io/image/menus-glovo/products/5da1b84fd465ff07221e11b00818bf6f42b0e6ae9c50b619380cd10ead623f9f?t=W3siYXZpZiI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d'
     },
     {
         category:'chicken',
         name: 'Cuisse de poulet  ' ,
         description :'',
         price: 2.50,
-        picture: '/vite.svg'
+        picture: 'https://images.ricardocuisine.com/services/recipes/992x1340_5459.jpg'
     },
     {
         category:'chicken',
@@ -308,21 +308,21 @@ export const foodList = [
         name: 'Brochettes de poulet' ,
         description :'1 pièce',
         price: 1.50,
-        picture: '/vite.svg'
+        picture: 'https://img.over-blog-kiwi.com/0/89/69/26/20180923/ob_71aa50_brochettes-de-poulet-marine-a-la-tom.JPG'
     },
     {
         category:'grillades',
         name: 'Brochettes de boeuf' ,
         description :'1 pièce',
         price: 2.00,
-        picture: '/vite.svg'
+        picture: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.academiedugout.fr%2Frecettes%2Fbrochettes-de-boeuf_6589_4&psig=AOvVaw3lD-iTZ33eZBcXRHO3KGNi&ust=1724916927696000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDL976Wl4gDFQAAAAAdAAAAABAE'
     },
     {
         category:'grillades',
         name: 'Dibi agneau 300g' ,
         description :'',
         price: 10.00,
-        picture: '/vite.svg'
+        picture: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Faistoucuisine.com%2Framadan%2Fdibi-maison-au-four%2F19%2F04%2F2020%2F&psig=AOvVaw0fRrqmGuUgU5xfCVxTk24n&ust=1724916981290000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjTvdOWl4gDFQAAAAAdAAAAABAE'
     },
 
 ]
