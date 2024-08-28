@@ -125,7 +125,7 @@ export const foodList = [
         category:'menu',
         name: 'Menu 1' ,
         type:'',
-        description :'3 pilons de poulet + 1 accompagnement + Boisson 33cL',
+        description :'3 pilons de poulet + 1 accompagnement + 1 Boisson 33cL',
         price: 6.50,
         picture: '/vite.svg'
     },
