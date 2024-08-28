@@ -16,9 +16,9 @@ defineProps({
         <img class="w-full object-fit rounded h-[6em]" :src=picture alt="">
       </div>
       <div class="w-2/3 flex flex-col justify-around p-2">
-        <h1 class="font-semibold text-[1.2em]">{{(name).toUpperCase()}}</h1>
+        <h1 class="font-semibold text-l]">{{(name).toUpperCase()}}</h1>
         <p class="text-xs">{{description}}</p>
-        <h1 class="text-[1.2em]">{{price}} Euro</h1>
+        <h1 class="">{{price}} €</h1>
       </div>
     </div>
   </div>

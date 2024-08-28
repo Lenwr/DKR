@@ -20,7 +20,7 @@ defineProps({
         <h1 class="font-semibold my-2 ">{{(name).toUpperCase()}}</h1>
         <p class="font-semibold my-2 text-center">{{type}}</p>
         <p class=" text-center">{{description}}</p>
-        <h1 class="font-semibold my-2">{{price}} Euro</h1>
+        <h1 class="font-semibold my-2">{{price}} €</h1>
       </div>
     </div>
   </div>
