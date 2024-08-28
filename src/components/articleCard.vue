@@ -11,7 +11,7 @@ defineProps({
 
 <template>
   <div class="p-2  ">
-    <div class="flex bg-gray-100  flex-row rounded shadow opacity-1 bg-white ">
+    <div class="flex bg-gray-100  flex-row rounded  opacity-1 bg-white ">
       <div class="w-1/3">
         <img class="w-full object-fit rounded h-[6em]" :src=picture alt="">
       </div>
