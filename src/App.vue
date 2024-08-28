@@ -71,7 +71,7 @@ const  items = [
 
 <template >
 <div class=" bg-[url('/background.jpg')]">
-<div class="bg-white bg-opacity-90 text-black ">
+<div class="bg-white bg-opacity-90 text-black md:p-[5%] ">
   <div class="p-2">
   <h1 class="rounded-2xl text-red-700 p-4 bg-yellow-500 bg-grey-300 font-semibold text-2xl text-center shadow-2xl" >DKR MENU</h1>
   </div>
