@@ -79,7 +79,7 @@ const  items = [
     <img class="w-full md:hidden rounded-2xl shadow-2xl" src="/logo.jpeg" alt="">
   </div>
   <div class="px-2 md:flex md:justify-center ">
-    <h1 class="p-2 mt-2 font-semibold text-2xl" id="entree">CATEGORIES</h1>
+    <h1 class="p-2 font-semibold text-2xl" id="entree">CATEGORIES</h1>
     <vue-horizontal responsive class="">
       <section v-for="item in items" :key="item.title">
         <a :href=item.id >

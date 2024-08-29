@@ -4,28 +4,28 @@ export const foodList = [
         name: 'pastels thon' ,
         description :'4 pièces',
         price: 3.50,
-        picture: '/vite.svg'
+        picture: '/pastel.jpeg'
     },
     {
         category:'entrées',
         name: 'pastels viande' ,
         description :'4 pièces',
         price: 3.50,
-        picture: '/vite.svg'
+        picture: '/pastel.jpeg'
     },
     {
         category:'entrées',
         name: 'Nems Poulet' ,
         description :'3 pièces',
         price: 3.00,
-        picture: '/vite.svg'
+        picture: 'https://www.lorminy.com/wp-content/uploads/2021/12/Nems-au-poulet.jpg'
     },
     {
         category:'entrées',
         name: 'Nems Crevettes' ,
         description :'3 pièces',
         price: 3.50,
-        picture: '/vite.svg'
+        picture: 'https://www.lorminy.com/wp-content/uploads/2021/12/Nems-au-poulet.jpg'
     },
 
     {
@@ -33,56 +33,56 @@ export const foodList = [
         name: 'frites ' ,
         description :'',
         price: 2.50,
-        picture: '/vite.svg'
+        picture: 'https://img.cuisineaz.com/680x357/2015/09/30/i40123-10-choses-a-faire-avec-des-restes-de-frites.jpg'
     },
     {
         category:'accompagnements',
         name: 'frites maisons ' ,
         description :'',
         price: 3.00,
-        picture: '/vite.svg'
+        picture: 'https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_488,q_auto,dpr_2.0,w_650/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/197334/ob_5c15f8_frites-maison.jpg'
     },
     {
         category:'accompagnements',
         name: 'riz parfumé blanc' ,
         description :'',
         price: 2.50,
-        picture: '/vite.svg'
+        picture: 'https://laliregal.fr/cdn/shop/products/image_cc7a5386-5053-405e-a5c1-2ac631ee64ea_1024x.jpg?v=1588237263'
     },
     {
         category:'accompagnements',
         name: 'Patate douce' ,
         description :'',
         price: 4.00,
-        picture: '/vite.svg'
+        picture: 'https://fr.frije.com/content/recipes/111962/800-1.jpg'
     },
     {
         category:'accompagnements',
         name: 'aloko' ,
         description :'',
         price: 4.00,
-        picture: '/vite.svg'
+        picture: 'https://www.naboupastel.com/wp-content/uploads/2023/10/Aloko.jpg'
     },
     {
         category:'accompagnements',
         name: 'attiéké' ,
         description :'',
         price: 4.00,
-        picture: '/vite.svg'
+        picture: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Plat_atti%C3%A9k%C3%A9.jpg'
     },
     {
         category:'accompagnements',
         name: 'Riz thaï' ,
         description :'',
         price: 3.50,
-        picture: '/vite.svg'
+        picture: 'https://www.saveursdumonde.net/wp-content/uploads/2018/07/recette-de-riz-thai-e1532266320222.jpeg'
     },
     {
         category:'accompagnements',
         name: 'Pomme de terre' ,
         description :'',
         price: 3.00,
-        picture: '/vite.svg'
+        picture: 'https://platetrecette.com/wp-content/uploads/2020/05/Pommes-de-Terre-au-Four-WW.png'
     },
 
     {
@@ -151,7 +151,7 @@ export const foodList = [
         name: 'tiep viande' ,
         description :'',
         price: 12.00,
-        picture: '/plats.png'
+        picture: '/tieppoisson.jpeg'
     },
     {
         category:'plats',
