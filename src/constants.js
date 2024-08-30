@@ -74,7 +74,7 @@ export const foodList = [
         category:'accompagnements',
         name: 'Riz thaï' ,
         description :'',
-        price: 3.50,
+        price: 3.00,
         picture: 'https://www.saveursdumonde.net/wp-content/uploads/2018/07/recette-de-riz-thai-e1532266320222.jpeg'
     },
     {
@@ -202,6 +202,13 @@ export const foodList = [
         price: 10.00,
         picture: 'https://i.goopics.net/a3yx4t.png'
     },
+    {
+        category:'plats',
+        name: 'Pattes bolognaises' ,
+        description :'',
+        price: 3.00,
+        picture: 'https://cdn.pratico-pratiques.com/app/uploads/sites/4/2018/08/30171718/spaghettis-alla-bolognese.jpeg'
+    },
 
     {
         category:'boissons',
@@ -263,14 +270,14 @@ export const foodList = [
         category: 'chicken',
         name: '1/2 poulet  ',
         description: '',
-        price: 4.00,
+        price: 3.50,
         picture: 'https://glovo.dhmedia.io/image/menus-glovo/products/5da1b84fd465ff07221e11b00818bf6f42b0e6ae9c50b619380cd10ead623f9f?t=W3siYXZpZiI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjoyNjAsImhlaWdodCI6MjYwfX1d'
     },
     {
         category:'chicken',
         name: 'Cuisse de poulet  ' ,
         description :'',
-        price: 2.50,
+        price: 2.00,
         picture: 'https://static.takeaway.com/images/restaurants/fr/R7N7O3R1/products/6449093_lamaisondupoulet_food_demipouletbraise.png'
     },
     {
@@ -284,8 +291,15 @@ export const foodList = [
         category:'chicken',
         name: '3 pilons ' ,
         description :'',
-        price: 2.50,
+        price: 3.00,
         picture: 'https://gourmandiseassia.fr/wp-content/uploads/2019/02/PicsArt_03-04-12.30.04.jpg'
+    },
+    {
+        category:'chicken',
+        name: '3 ailes de poulet ' ,
+        description :'',
+        price: 2.00,
+        picture: 'https://m1.quebecormedia.com/emp/cdp_prod/bf9e143d34af42d006e1b2329cc9e0b88c799be3/AdobeStock-166037353.jpg?impolicy=resize&width=1500&height=1500'
     },
     {
         category:'chicken',
