@@ -71,7 +71,7 @@ const  items = [
 
 <template >
 <div class=" bg-[url('https://i.pinimg.com/736x/62/ef/16/62ef16ecfbbaf1c93d24c0ac08e34c62.jpg')]">
-<div class="bg-white bg-opacity-90 text-black md:p-[5%] ">
+<div class="bg-white bg-opacity-95 text-black md:p-[5%] ">
   <div class="p-2">
   <h1 class="rounded-2xl border-2 border-[#4c0c0d] p-4 text-[#4c0c0d] font-semibold text-2xl text-center shadow-2xl" >DKR MENU</h1>
   </div>
