@@ -5,13 +5,13 @@ defineProps({
   description: String,
   name: String ,
   price: Number,
-  picture: String
+  picture: String,
 })
 </script>
 
 <template>
   <div class="p-2  ">
-    <div class="flex bg-gray-100  flex-row rounded  opacity-1 bg-white ">
+    <div class="flex flex-row rounded  opacity-1 bg-white ">
       <div class="w-1/3">
         <img class="w-full object-cover rounded h-[6em]" :src=picture alt="">
       </div>
