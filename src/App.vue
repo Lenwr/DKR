@@ -83,7 +83,7 @@ const  items = [
     <vue-horizontal responsive class="">
       <section v-for="item in items" :key="item.title">
         <a :href=item.id >
-          <div class="px-2 py-4 bg-[#4c0c0d] text-[#f88b32] rounded shadow-2xl ">
+          <div class="px-2 py-4 border-2 border-[#4c0c0d] text-[#4c0c0d] rounded shadow-2xl ">
             <h3>{{ item.title }}</h3>
             <p>{{ item.content }}</p>
           </div>

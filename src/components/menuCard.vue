@@ -17,10 +17,10 @@ defineProps({
         <img class="w-full rounded-xl h-auto" :src="picture" alt="">
       </div>
       <div class=" flex flex-col items-center justify-between p-2">
-        <h1 class="font-semibold my-2 ">{{(name).toUpperCase()}}</h1>
-        <p class="font-semibold my-2 text-center">{{type}}</p>
-        <p class=" text-center">{{description}}</p>
-        <h1 class="font-semibold my-2">{{price}} €</h1>
+        <h1 class="font-semibold my-2 text-[#4c0c0d] ">{{(name).toUpperCase()}}</h1>
+        <p class="font-semibold my-2 text-center text-[#4c0c0d]">{{type}}</p>
+        <p class=" text-center text-[#4c0c0d]">{{description}}</p>
+        <h1 class="font-semibold text-[#f88b32] my-2">{{price}} €</h1>
       </div>
     </div>
   </div>
