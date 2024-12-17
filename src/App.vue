@@ -71,13 +71,14 @@ const  items = [
 
 <template >
 <div class=" bg-[url('https://i.pinimg.com/736x/62/ef/16/62ef16ecfbbaf1c93d24c0ac08e34c62.jpg')]">
-<div class="bg-white bg-opacity-95 text-black md:p-[5%] ">
+<div class="bg-gray-50 bg-opacity-98 text-black md:p-[1%] ">
   <div class="p-2">
   <h1 class="rounded-2xl border-2 border-[#4c0c0d] p-4 text-[#4c0c0d] font-semibold text-2xl text-center shadow-2xl" >DKR MENU</h1>
   </div>
   <div class="p-2">
     <img class="w-full md:hidden rounded-2xl shadow-2xl" src="/logo.jpeg" alt="">
   </div>
+
   <div class="px-2 md:flex md:justify-center ">
     <h1 class="p-2 font-semibold text-[#3a080d] text-2xl" id="entree">CATEGORIES</h1>
     <vue-horizontal responsive class="">
@@ -91,49 +92,50 @@ const  items = [
       </section>
     </vue-horizontal>
   </div>
+
   <div >
     <h1 class="p-2 my-2 font-semibold text-[#3a080d] text-2xl" id="entree">ENTRÉES </h1>
-    <ul  class="md:grid grid-cols-3" >
-      <li v-for="item in entréesItems" :key="item.name" class="">
+    <ul  class="md:grid grid-cols-4 flex justify-around flex-wrap" >
+      <li v-for="item in entréesItems" :key="item.name" class="w-[50%] md:w-full ">
         <article-card :name=item.name :description=item.description :price=item.price :picture=item.picture />
       </li>
     </ul>
 
     <h1 class="p-2 my-2 font-semibold text-[#3a080d] text-2xl" id="accompagnements">ACCOMPAGNEMENT </h1>
-    <ul class="md:grid grid-cols-3 " >
-      <li v-for="item in accompagnementsItems"><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
+    <ul class="md:grid grid-cols-4  flex justify-around flex-wrap " >
+      <li v-for="item in accompagnementsItems" class="w-[50%] md:w-full "><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
     </ul>
 
     <h1 class="p-2 my-2 font-semibold text-[#3a080d] text-2xl" id="suppléments">SUPPLÉMENT </h1>
-    <ul class="md:grid grid-cols-3"  >
-      <li v-for="item in supplyItems" class=" "><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
+    <ul class="md:grid grid-cols-4 flex  flex-wrap "  >
+      <li v-for="item in supplyItems" class="w-[50%] md:w-full "><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
     </ul>
 
     <h1 class="p-2 my-2 font-semibold text-[#3a080d] text-2xl" id="plats">NOS PLATS </h1>
-    <ul  class="md:grid grid-cols-3" >
-      <li v-for="item in dishesItems"><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
+    <ul  class="md:grid grid-cols-4 flex  flex-wrap " >
+      <li v-for="item in dishesItems" class="w-[50%] md:w-full "><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
     </ul>
 
     <h1 class="p-2 my-2 font-semibold text-[#3a080d] text-2xl" id="grillade">GRILLADES / DIBITERIE </h1>
-    <ul  class="md:grid grid-cols-3" >
-      <li v-for="item in grillsItems"><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
+    <ul  class="md:grid grid-cols-4 flex  flex-wrap" >
+      <li v-for="item in grillsItems" class="w-[50%] md:w-full " ><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
     </ul>
 
     <h1 class="p-2 my-2 font-semibold text-[#3a080d] text-2xl" >DESSERTS 3€</h1>
 
     <h1 class="p-2 my-2 font-semibold text-[#3a080d] text-2xl" id="boissons">BOISSONS </h1>
-    <ul  class="md:grid grid-cols-3">
-      <li v-for="item in drinkItems"><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
+    <ul  class="md:grid grid-cols-4 flex flex-wrap">
+      <li v-for="item in drinkItems" class="w-[50%] md:w-full " ><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
     </ul>
 
     <h1 class="p-2 my-2 font-semibold text-[#3a080d] text-2xl" id="poulets">POULETS </h1>
-    <ul  class="md:grid grid-cols-3" >
-      <li v-for="item in chickenItems"><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
+    <ul  class="md:grid grid-cols-4 justify-around flex flex-wrap" >
+      <li v-for="item in chickenItems" class="w-[50%] md:w-full " ><article-card :name=item.name :description=item.description :price=item.price :picture=item.picture /></li>
     </ul>
 
     <h1 class="p-2 my-2 font-semibold text-[#3a080d] text-2xl" id="menu">NOS MENUS POULET </h1>
     <ul  class="md:grid grid-cols-3" >
-      <li v-for="item in menusItems"><menu-card :name=item.name :description=item.description :type=item.type :price=item.price :picture=item.picture /></li>
+      <li v-for="item in menusItems" ><menu-card :name=item.name :description=item.description :type=item.type :price=item.price :picture=item.picture /></li>
     </ul>
 
   </div>
